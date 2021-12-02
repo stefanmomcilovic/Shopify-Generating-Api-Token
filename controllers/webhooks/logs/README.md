@@ -1,0 +1,1 @@
+Hello! here is where your logs from Shopify stores are created.
