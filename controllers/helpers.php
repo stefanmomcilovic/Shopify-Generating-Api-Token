@@ -163,7 +163,7 @@ if(isset($_SESSION["access_token"]) && isset($_SESSION["shop_name"])){
 	$app_uninstall = array(
 		'webhook' => array(
 			'topic' => 'app/uninstalled',
-			'address' => getenv('APPLICATION_URL').'/includes/webhooks/app-uninstall.php?shop='.$_SESSION['shop_name'],
+			'address' => getenv('APPLICATION_URL').'/controllers/webhooks/app-uninstall.php?shop='.$_SESSION['shop_name'],
 			'format' => 'json'
 		)
 	);
