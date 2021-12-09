@@ -1,5 +1,5 @@
 <?php
-require realpath($_SERVER["DOCUMENT_ROOT"]) . "/includes/helpers.php";
+require realpath($_SERVER["DOCUMENT_ROOT"]) . "/controllers/helpers.php";
 
 define('SHOPIFY_APP_SECRET', getenv('SECRET_KEY'));
 
