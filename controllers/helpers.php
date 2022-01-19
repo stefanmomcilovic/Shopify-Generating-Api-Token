@@ -26,7 +26,7 @@ if(isset($_SESSION['access_token']) && isset($_SESSION['shop_name']) && !empty($
 if(!$session){
     echo '
     <script type="text/javascript">
-        alert("Sorry, your session has expired, please try to open application again!");
+        alert("Sorry, You are Unauthorized, please try again!");
         window.close();
     </script>
     ';
